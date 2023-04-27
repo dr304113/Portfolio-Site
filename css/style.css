@@ -359,60 +359,83 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Skill-Icons Section
 --------------------------------------------------------------*/
-.facts {
+@media (max-width: 768px) {
+  .skill-icons .col {
+    width: 60%;
+    text-align: center;
+  }
+  .skill-icons .row {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+.skill-icons .row {
+  align-content: center;
+  padding-top: 20px;
+}
+
+.skill-icons h2 {
+text-align: left;
+}
+
+.skill-icons {
   padding-bottom: 30px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
 }
 
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
+.skill-icons #iconAnomaly1 {
+  border-style: solid;
+  border-color: #25a162;
+  border-radius: 13px;
+  background-color: #dc524a;
 }
 
-.facts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #149ddd;
-  float: left;
-  line-height: 0;
-}
 
-.facts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #050d18;
-  margin-left: 60px;
-}
-
-.facts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #122f57;
-}
-
-.facts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #122f57;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-
-.facts .count-box a:hover {
-  color: #1f5297;
-}
-
-.facts img {
-  width: 60%;
+.skill-icons img {
+  width: 70px;
+  max-width: 100%;
   height: auto;
   padding-bottom: 10px;
+}
+
+/* Default styles for all screens */
+#skill-icons .row .col {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#skill-icons .row .col img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* Styles for screens smaller than 576px */
+@media (max-width: 575.98px) {
+  #skill-icons .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #skill-icons .row .col {
+    flex-basis: calc(50% - 10px);
+    margin: 5px;
+  }
+}
+
+/* Styles for screens between 576px and 991.98px */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #skill-icons .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #skill-icons .row .col {
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -451,6 +474,12 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
+/*--------------------------------------------------------------
+# Interactive Man
+--------------------------------------------------------------*/
+
+
+
 
 /*--------------------------------------------------------------
 # Resume
@@ -461,6 +490,10 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
+}
+
+#badgeContainer img {
+  float: left;
 }
 
 .resume .resume-item {
