@@ -326,39 +326,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: #149ddd;
-  line-height: 0;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
+.about-description {
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Ysabeau', sans-serif;
+  margin: 30px;  
+    }
+/*-----------------++---------------------------------------------
 # Skill-Icons Section
 --------------------------------------------------------------*/
 @media (max-width: 768px) {
@@ -475,7 +449,7 @@ text-align: left;
   background-color: #149ddd;
 }
 /*--------------------------------------------------------------
-# Interactive Man
+# Interactive Man - Coming soon!
 --------------------------------------------------------------*/
 
 
@@ -1053,53 +1027,6 @@ text-align: left;
     transform: rotate(360deg);
   }
 }
-
-/*--------------------------------------------------------------
-# d
---------------------------------------------------------------*/
-/* .breadcrumbs {
-  padding: 20px 0;
-  background: #f9f9f9;
-}
-
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #0e2442;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-} */
 
 /*--------------------------------------------------------------
 # Footer
